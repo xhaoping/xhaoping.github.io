@@ -1,0 +1,137 @@
+@font-face{
+    
+    font-family:"black_jack";
+    src: url("black_jack.ttf");
+
+
+}
+#body{
+	margin: 0px;
+}
+
+#module_1{
+	background-image: url(fumu.jpg);
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	background-size:100% 100%;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+
+	
+
+}
+
+#fumu{
+	font-size: 70px;
+	padding-left: 27%;
+	padding-top: 6%;
+	font-family: black_jack;
+	color:black;
+}
+
+#m2_h2{
+	padding-left: 43%;
+
+
+}
+
+#m2_h4{
+	padding-left: 36%;
+
+}
+
+.form-horizontal{
+	padding-left: 33%;
+	width: 70%;
+}
+
+.controls{
+	width: 100%;
+}
+
+.input-xlarge {
+	width: 100%;
+}
+
+.textarea{
+	width: 100%;
+	
+	
+}
+
+#m2_p{
+    padding-left: 28%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#m2_h{
+    padding-left: 17%;
+}
+
+
+/*photo display*/
+#module_3{
+    display: table;
+    width:100%;
+    height: 180%;
+	border-spacing: 0px;
+	margin-bottom: 0px;
+}
+
+#m3_R1{
+    display: table-row;
+/*    height:60%;*/
+    
+}
+
+#m3_R2{
+    display: table-row;
+/*    height:60%;*/
+}
+
+#m3_R3{
+    display: table-row;
+/*    height:60%;*/
+}
+
+
+
+
+#m3_R1_1{
+    display: table-cell;
+    background-image: url(1.jpg);
+    background-size:contain;
+}
+
+#m3_R1_2{
+    display: table-cell;
+    background-image: url(2.jpg);
+    background-size:cover;
+}
+
+#m3_R2_1{
+    display: table-cell;
+    background-image: url(3.jpg);
+    background-size:cover;
+}
+
+#m3_R2_2{
+    display: table-cell;
+    background-image: url(4.jpg);
+    background-size:cover;
+}
+
+#m3_R3_1{
+    display: table-cell;
+    background-image: url(5.jpg);
+    background-size:cover;
+}
+
+#m3_R3_2{
+    display: table-cell;
+    background-image: url(6.jpg);
+    background-size:cover;
+}
